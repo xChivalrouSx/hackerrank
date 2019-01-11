@@ -68,6 +68,32 @@ namespace hackerrank.Classes
         #endregion
 
 
-        
+        #region [ - A Very Big Sum - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/a-very-big-sum/problem
+
+        private static long aVeryBigSum(long[] ar)
+        {
+
+
+        }
+
+        public static void aVeryBigSum_Main()
+        {
+            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int arCount = Convert.ToInt32(Console.ReadLine());
+
+            long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp))
+            ;
+            long result = aVeryBigSum(ar);
+
+            textWriter.WriteLine(result);
+
+            textWriter.Flush();
+            textWriter.Close();
+        }
+
+        #endregion
     }
 }
