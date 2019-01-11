@@ -164,7 +164,28 @@ namespace hackerrank.Classes
 
         private static void plusMinus(int[] arr)
         {
-            
+            double possitiveSum, negativeSum, zeroSum;
+            possitiveSum = negativeSum = zeroSum = 0;
+
+            foreach (int i in arr)
+            {
+                if (i < 0)
+                {
+                    negativeSum++;
+                }
+                else if (i > 0)
+                {
+                    possitiveSum++;
+                }
+                else
+                {
+                    zeroSum++;
+                }
+            }
+
+            Console.WriteLine(possitiveSum / arr.Length);
+            Console.WriteLine(negativeSum / arr.Length);
+            Console.WriteLine(zeroSum / arr.Length);
         }
 
         public static void plusMinus_Main()
