@@ -156,5 +156,26 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+
+        #region [ - Plus Minus - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/plus-minus/problem
+
+        private static void plusMinus(int[] arr)
+        {
+            
+        }
+
+        public static void plusMinus_Main()
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+
+            plusMinus(arr);
+        }
+
+        #endregion
     }
 }
