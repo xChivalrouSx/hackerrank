@@ -231,5 +231,41 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Mini-Max Sum - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/mini-max-sum/problem
+
+        private static void miniMaxSum(int[] arr)
+        {
+            Int64[] sums = new Int64[arr.Length];
+            for (int i=0; i< sums.Length; i++)
+            {
+                sums[i] = 0;
+            }
+
+            for (int i=0; i<arr.Length; i++)
+            {
+                for (int j=0; j<arr.Length; j++)
+                {
+                    if (j != i)
+                    {
+                        sums[i] += arr[j];
+                    }
+                }
+            }
+
+            Console.Write(sums.Min() + " " + sums.Max());
+        }
+
+        public static void miniMaxSum_Main()
+        {
+            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+
+            miniMaxSum(arr);
+        }
+
+        #endregion
+
     }
 }

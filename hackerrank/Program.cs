@@ -21,7 +21,9 @@ namespace hackerrank
 
             //ProblemSolving.plusMinus_Main();
 
-            ProblemSolving.staircase_Main();
+            //ProblemSolving.staircase_Main();
+
+            ProblemSolving.miniMaxSum_Main();
 
 
             Console.ReadLine();
