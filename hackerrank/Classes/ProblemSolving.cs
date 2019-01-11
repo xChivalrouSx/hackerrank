@@ -311,5 +311,57 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Time Conversion - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/time-conversion/problem
+
+        private static string timeConversion(string s)
+        {
+            /*
+             * Write your code here.
+             */
+            bool isPm = s.Substring(s.Length-2, 2).Equals("PM");
+
+            s = s.Remove(s.Length-2, 2);
+
+            string[] splittedTime = s.Split(':');
+            int hour = Int32.Parse(splittedTime[0]);
+
+            if (isPm && hour == 12)
+            {
+                splittedTime[0] = "12";
+            }
+            else if (!isPm && hour == 12)
+            {
+                splittedTime[0] = "00";
+            }
+            else if (isPm)
+            {
+                hour += 12;
+                splittedTime[0] = hour.ToString();
+            }
+
+            return splittedTime[0] + ":" + splittedTime[1] + ":" + splittedTime[2];
+        }
+
+        public static void timeConversion_Main()
+        {
+            //TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            string s = Console.ReadLine();
+
+            string result = timeConversion(s);
+
+            Console.WriteLine(result);
+
+            //tw.WriteLine(result);
+
+            //tw.Flush();
+            //tw.Close();
+        }
+
+        #endregion
+
     }
 }

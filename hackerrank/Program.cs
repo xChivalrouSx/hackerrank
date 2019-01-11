@@ -25,7 +25,9 @@ namespace hackerrank
 
             //ProblemSolving.miniMaxSum_Main();
 
-            ProblemSolving.birthdayCakeCandles_Main();
+            //ProblemSolving.birthdayCakeCandles_Main();
+
+            ProblemSolving.timeConversion_Main();
 
 
             Console.ReadLine();
