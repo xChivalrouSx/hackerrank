@@ -14,18 +14,18 @@ namespace hackerrank.Classes
 
         // Problem Link: https://www.hackerrank.com/challenges/solve-me-first/problem
 
+        private static int solveMeFirst(int a, int b)
+        {
+            // Hint: Type return a+b; below  
+            return a + b;
+        }
+
         public static void solveMeFirst_Main()
         {
             int val1 = Convert.ToInt32(Console.ReadLine());
             int val2 = Convert.ToInt32(Console.ReadLine());
             int sum = solveMeFirst(val1, val2);
             Console.WriteLine(sum);
-        }
-
-        private static int solveMeFirst(int a, int b)
-        {
-            // Hint: Type return a+b; below  
-            return a + b;
         }
 
         #endregion
@@ -51,18 +51,18 @@ namespace hackerrank.Classes
 
         public static void simpleArraySum_Main()
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int arCount = Convert.ToInt32(Console.ReadLine());
 
-            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
-            ;
+            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
+
             int result = simpleArraySum(ar);
 
-            textWriter.WriteLine(result);
+            //textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
+            //textWriter.Flush();
+            //textWriter.Close();
         }
 
         #endregion
@@ -86,18 +86,18 @@ namespace hackerrank.Classes
 
         public static void aVeryBigSum_Main()
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int arCount = Convert.ToInt32(Console.ReadLine());
 
-            long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp))
-            ;
+            long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp));
+
             long result = aVeryBigSum(ar);
 
-            textWriter.WriteLine(result);
+            //textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
+            //textWriter.Flush();
+            //textWriter.Close();
         }
 
         #endregion
@@ -135,7 +135,7 @@ namespace hackerrank.Classes
 
         public static void diagonalDifference_Main()
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int n = Convert.ToInt32(Console.ReadLine());
 
@@ -148,10 +148,10 @@ namespace hackerrank.Classes
 
             int result = diagonalDifference(arr);
 
-            textWriter.WriteLine(result);
+            //textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
+            //textWriter.Flush();
+            //textWriter.Close();
         }
 
         #endregion
@@ -263,6 +263,50 @@ namespace hackerrank.Classes
             int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
 
             miniMaxSum(arr);
+        }
+
+        #endregion
+
+
+        #region [ - Birthday Cake Candles - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
+        private static int birthdayCakeCandles(int[] ar)
+        {
+            int max, howManyMax;
+            max = howManyMax = 0;
+
+            foreach (int value in ar)
+            {
+                if (max < value)
+                {
+                    max = value;
+                    howManyMax = 1;
+                }
+                else if (max == value)
+                {
+                    howManyMax++;
+                }
+            }
+
+            return howManyMax;
+        }
+
+        public static void birthdayCakeCandles_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int arCount = Convert.ToInt32(Console.ReadLine());
+
+            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
+
+            int result = birthdayCakeCandles(ar);
+
+            //textWriter.WriteLine(result);
+
+            //textWriter.Flush();
+            //textWriter.Close();
         }
 
         #endregion
