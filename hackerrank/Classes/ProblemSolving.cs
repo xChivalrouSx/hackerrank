@@ -33,15 +33,20 @@ namespace hackerrank.Classes
 
         #region [ - Simple Array Sum - ]
 
-        /*
-        * Complete the simpleArraySum function below.
-        */
+        // Problem Link: https://www.hackerrank.com/challenges/simple-array-sum/problem
+
         private static int simpleArraySum(int[] ar)
         {
             /*
              * Write your code here.
              */
+            int sum = 0;
+            foreach (int i in ar)
+            {
+                sum += i;
+            }
 
+            return sum;
         }
 
         public static void simpleArraySum_Main()
@@ -61,5 +66,8 @@ namespace hackerrank.Classes
         }
 
         #endregion
+
+
+        
     }
 }
