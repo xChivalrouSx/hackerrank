@@ -13,8 +13,10 @@ namespace hackerrank
         {
             ProblemSolving.solveMeFirst_Main();
 
+            ProblemSolving.simpleArraySum_Main();
 
 
+            Console.ReadLine();
         }
     }
 }

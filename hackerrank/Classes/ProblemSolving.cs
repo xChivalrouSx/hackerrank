@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,5 +30,36 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Simple Array Sum - ]
+
+        /*
+        * Complete the simpleArraySum function below.
+        */
+        private static int simpleArraySum(int[] ar)
+        {
+            /*
+             * Write your code here.
+             */
+
+        }
+
+        public static void simpleArraySum_Main()
+        {
+            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int arCount = Convert.ToInt32(Console.ReadLine());
+
+            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
+            ;
+            int result = simpleArraySum(ar);
+
+            textWriter.WriteLine(result);
+
+            textWriter.Flush();
+            textWriter.Close();
+        }
+
+        #endregion
     }
 }
