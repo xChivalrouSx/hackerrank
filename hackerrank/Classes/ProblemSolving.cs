@@ -75,7 +75,13 @@ namespace hackerrank.Classes
         private static long aVeryBigSum(long[] ar)
         {
 
+            long sum = 0;
+            foreach (long l in ar)
+            {
+                sum += l;
+            }
 
+            return sum;
         }
 
         public static void aVeryBigSum_Main()
