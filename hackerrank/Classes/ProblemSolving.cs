@@ -101,5 +101,41 @@ namespace hackerrank.Classes
         }
 
         #endregion
+
+
+        #region [ - Diagonal Difference - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/diagonal-difference/problem
+
+        private static int diagonalDifference(int[][] arr)
+        {
+            
+
+
+        }
+
+        public static void diagonalDifference_Main()
+        {
+            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[][] arr = new int[n][];
+
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+            }
+
+            int result = diagonalDifference(arr);
+
+            textWriter.WriteLine(result);
+
+            textWriter.Flush();
+            textWriter.Close();
+        }
+
+        #endregion
+
     }
 }

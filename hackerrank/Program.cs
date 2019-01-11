@@ -11,11 +11,13 @@ namespace hackerrank
     {
         static void Main(string[] args)
         {
-            ProblemSolving.solveMeFirst_Main();
+            //ProblemSolving.solveMeFirst_Main();
 
-            ProblemSolving.simpleArraySum_Main();
+            //ProblemSolving.simpleArraySum_Main();
 
-            ProblemSolving.aVeryBigSum_Main();
+            //ProblemSolving.aVeryBigSum_Main();
+
+            ProblemSolving.diagonalDifference_Main();
 
 
             Console.ReadLine();
