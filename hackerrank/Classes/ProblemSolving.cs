@@ -109,9 +109,28 @@ namespace hackerrank.Classes
 
         private static int diagonalDifference(int[][] arr)
         {
-            
+            int primaryDiagonalSum = 0;
+            int secondaryDiagonalSum = 0;
+            int secondaryControl = arr.Length - 1;
 
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    if (i == j)
+                    {
+                        primaryDiagonalSum += arr[i][j];
+                    }
 
+                    if (j == secondaryControl)
+                    {
+                        secondaryDiagonalSum += arr[i][j];
+                    }
+                }
+                secondaryControl--;
+            }
+
+            return Math.Abs(primaryDiagonalSum - secondaryDiagonalSum);
         }
 
         public static void diagonalDifference_Main()
