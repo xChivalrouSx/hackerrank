@@ -19,7 +19,9 @@ namespace hackerrank
 
             //ProblemSolving.diagonalDifference_Main();
 
-            ProblemSolving.plusMinus_Main();
+            //ProblemSolving.plusMinus_Main();
+
+            ProblemSolving.staircase_Main();
 
 
             Console.ReadLine();

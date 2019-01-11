@@ -157,7 +157,6 @@ namespace hackerrank.Classes
         #endregion
 
 
-
         #region [ - Plus Minus - ]
 
         // Problem Link: https://www.hackerrank.com/challenges/plus-minus/problem
@@ -198,5 +197,39 @@ namespace hackerrank.Classes
         }
 
         #endregion
+
+
+        #region [ - Staircase - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/staircase/problem
+
+        private static void staircase(int n)
+        {
+            for (int i=n; i>0; i--)
+            {
+                for(int j=1; j<=n; j++)
+                {
+                    if (j < i)
+                    {
+                        Console.Write(" ");
+                    }
+                    else
+                    {
+                        Console.Write("#");
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void staircase_Main()
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            staircase(n);
+        }
+
+        #endregion
+
     }
 }
