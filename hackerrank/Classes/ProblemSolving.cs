@@ -59,6 +59,8 @@ namespace hackerrank.Classes
 
             int result = simpleArraySum(ar);
 
+            Console.WriteLine(result);
+
             //textWriter.WriteLine(result);
 
             //textWriter.Flush();
@@ -93,6 +95,8 @@ namespace hackerrank.Classes
             long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp));
 
             long result = aVeryBigSum(ar);
+
+            Console.WriteLine(result);
 
             //textWriter.WriteLine(result);
 
@@ -147,6 +151,8 @@ namespace hackerrank.Classes
             }
 
             int result = diagonalDifference(arr);
+
+            Console.WriteLine(result);
 
             //textWriter.WriteLine(result);
 
@@ -302,6 +308,8 @@ namespace hackerrank.Classes
             int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
 
             int result = birthdayCakeCandles(ar);
+
+            Console.WriteLine(result);
 
             //textWriter.WriteLine(result);
 
