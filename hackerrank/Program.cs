@@ -31,7 +31,9 @@ namespace hackerrank
 
             //ProblemSolving.gradingStudents_Main();
 
-            ProblemSolving.countApplesAndOranges_Main();
+            //ProblemSolving.countApplesAndOranges_Main();
+
+            ProblemSolving.kangaroo_Main();
 
 
             Console.ReadLine();
