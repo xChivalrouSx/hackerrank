@@ -371,5 +371,50 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Grading Students - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/grading/problem
+
+        private static int[] gradingStudents(int[] grades)
+        {
+            for (int i=0; i< grades.Length; i++)
+            {
+                int roundValue = grades[i] % 5;
+                if (roundValue > 2 && grades[i] >= 38)
+                {
+                    grades[i] += (5 - roundValue);
+                }
+            }
+
+            return grades;
+        }
+
+        public static void gradingStudents_Main()
+        {
+            //TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[] grades = new int[n];
+
+            for (int gradesItr = 0; gradesItr < n; gradesItr++)
+            {
+                int gradesItem = Convert.ToInt32(Console.ReadLine());
+                grades[gradesItr] = gradesItem;
+            }
+
+            int[] result = gradingStudents(grades);
+
+            Console.WriteLine(string.Join("\n", result));
+
+            //tw.WriteLine(string.Join("\n", result));
+
+            //tw.Flush();
+            //tw.Close();
+        }
+
+        #endregion
+
     }
 }
