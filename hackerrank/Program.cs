@@ -29,7 +29,9 @@ namespace hackerrank
 
             //ProblemSolving.timeConversion_Main();
 
-            ProblemSolving.gradingStudents_Main();
+            //ProblemSolving.gradingStudents_Main();
+
+            ProblemSolving.countApplesAndOranges_Main();
 
 
             Console.ReadLine();
