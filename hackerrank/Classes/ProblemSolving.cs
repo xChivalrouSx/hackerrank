@@ -537,15 +537,13 @@ namespace hackerrank.Classes
             var counter = 1;
             var multipleOfMaxA = maxA;
 
-            while (true)
+            while (multipleOfMaxA <= minB)
             {
-                if(multipleOfMaxA <= minB) { break; }
-
                 var factorOfAll = true;
 
-                foreach (var i in a) 
+                foreach (var item in a) 
                 {
-                    if (multipleOfMaxA % i != 0)
+                    if (multipleOfMaxA % item != 0)
                     {
                         factorOfAll = false;
                         break;
@@ -554,9 +552,9 @@ namespace hackerrank.Classes
 
                 if (factorOfAll)
                 {
-                    foreach (var i in b) 
+                    foreach (var item in b) 
                     {
-                        if (i % multipleOfMaxA != 0)
+                        if (item % multipleOfMaxA != 0)
                         {
                             factorOfAll = false;
                             break;
@@ -599,6 +597,5 @@ namespace hackerrank.Classes
         }
 
         #endregion
-
     }
 }
