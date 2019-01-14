@@ -33,7 +33,10 @@ namespace hackerrank
 
             //ProblemSolving.countApplesAndOranges_Main();
 
-            ProblemSolving.kangaroo_Main();
+            //ProblemSolving.kangaroo_Main();
+
+            ProblemSolving.getTotalX_Main();
+
 
 
             Console.ReadLine();

@@ -524,5 +524,81 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Between Two Sets - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/between-two-sets/problem
+
+        private static int getTotalX(int[] a, int[] b)
+        {
+            var totalXs = 0;
+            var maxA = a.Max(); 
+            var minB = b.Min(); 
+            var counter = 1;
+            var multipleOfMaxA = maxA;
+
+            while (true)
+            {
+                if(multipleOfMaxA <= minB) { break; }
+
+                var factorOfAll = true;
+
+                foreach (var i in a) 
+                {
+                    if (multipleOfMaxA % i != 0)
+                    {
+                        factorOfAll = false;
+                        break;
+                    }
+                }
+
+                if (factorOfAll)
+                {
+                    foreach (var i in b) 
+                    {
+                        if (i % multipleOfMaxA != 0)
+                        {
+                            factorOfAll = false;
+                            break;
+                        }
+                    }
+                }
+
+                if (factorOfAll)
+                    totalXs++;
+
+                counter++;
+                multipleOfMaxA = maxA * counter; 
+            }
+
+            return totalXs;
+        }
+
+        public static void getTotalX_Main()
+        {
+            //TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            string[] nm = Console.ReadLine().Split(' ');
+
+            int n = Convert.ToInt32(nm[0]);
+
+            int m = Convert.ToInt32(nm[1]);
+
+            int[] a = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp));
+
+            int[] b = Array.ConvertAll(Console.ReadLine().Split(' '), bTemp => Convert.ToInt32(bTemp));
+
+            int total = getTotalX(a, b);
+
+            Console.WriteLine(total);
+
+            //tw.WriteLine(total);
+
+            //tw.Flush();
+            //tw.Close();
+        }
+
+        #endregion
+
     }
 }
