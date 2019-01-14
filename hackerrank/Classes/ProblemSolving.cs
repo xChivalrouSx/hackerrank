@@ -597,5 +597,56 @@ namespace hackerrank.Classes
         }
 
         #endregion
+
+
+        #region [ - Staircase - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+
+        private static int[] breakingRecords(int[] scores)
+        {
+            int higest, lowest, score;
+            int[] resultArray = new int[2];
+
+
+            higest = lowest = scores[0];
+            for (int i=1; i< scores.Length; i++)
+            {
+                score = scores[i];
+                if (score > higest)
+                {
+                    higest = score;
+                    resultArray[0]++;
+                }
+                else if (score < lowest)
+                {
+                    lowest = score;
+                    resultArray[1]++;
+                }
+            }
+
+            return resultArray;
+        }
+
+        public static void breakingRecords_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[] scores = Array.ConvertAll(Console.ReadLine().Split(' '), scoresTemp => Convert.ToInt32(scoresTemp));
+
+            int[] result = breakingRecords(scores);
+
+            Console.WriteLine(string.Join(" ", result));
+
+            //textWriter.WriteLine(string.Join(" ", result));
+
+            //textWriter.Flush();
+            //textWriter.Close();
+        }
+
+        #endregion
+
     }
 }

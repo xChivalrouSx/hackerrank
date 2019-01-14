@@ -35,7 +35,9 @@ namespace hackerrank
 
             //ProblemSolving.kangaroo_Main();
 
-            ProblemSolving.getTotalX_Main();
+            //ProblemSolving.getTotalX_Main();
+
+            ProblemSolving.breakingRecords_Main();
 
 
 
