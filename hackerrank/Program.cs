@@ -37,8 +37,9 @@ namespace hackerrank
 
             //ProblemSolving.getTotalX_Main();
 
-            ProblemSolving.breakingRecords_Main();
+            //ProblemSolving.breakingRecords_Main();
 
+            ProblemSolving.birthday_Main();
 
 
             Console.ReadLine();
