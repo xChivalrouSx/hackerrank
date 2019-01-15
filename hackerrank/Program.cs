@@ -39,7 +39,9 @@ namespace hackerrank
 
             //ProblemSolving.breakingRecords_Main();
 
-            ProblemSolving.birthday_Main();
+            //ProblemSolving.birthday_Main();
+
+            ProblemSolving.divisibleSumPairs_Main();
 
 
             Console.ReadLine();

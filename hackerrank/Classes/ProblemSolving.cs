@@ -699,5 +699,52 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Divisible Sum Pairs - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+
+        private static int divisibleSumPairs(int n, int k, int[] ar)
+        {
+            int result = 0;
+
+            for (int i=0; i<ar.Length; i++)
+            {
+                for (int j=ar.Length - 1; j>i; j--)
+                {
+                    if ((ar[i] + ar[j]) % k == 0)
+                    {
+                        result++;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public static void divisibleSumPairs_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            string[] nk = Console.ReadLine().Split(' ');
+
+            int n = Convert.ToInt32(nk[0]);
+
+            int k = Convert.ToInt32(nk[1]);
+
+            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
+
+            int result = divisibleSumPairs(n, k, ar);
+
+            Console.WriteLine(result);
+
+            //textWriter.WriteLine(result);
+
+            //textWriter.Flush();
+            //textWriter.Close();
+        }
+
+        #endregion
+
     }
 }
