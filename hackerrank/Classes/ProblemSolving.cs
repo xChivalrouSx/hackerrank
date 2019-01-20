@@ -746,5 +746,71 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Migratory Birds - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/migratory-birds/problem
+
+        private static int migratoryBirds(List<int> arr)
+        {
+            Dictionary<int, int> dictionary = new Dictionary<int, int>();
+            int maxValue = 0;
+
+            foreach (int value in arr)
+            {
+                if (!dictionary.ContainsKey(value))
+                {
+                    dictionary.Add(value, 1);
+                }
+                else
+                {
+                    dictionary[value] = ++dictionary[value];
+                }
+
+                if (dictionary[value] > maxValue)
+                {
+                    maxValue = dictionary[value];
+                }
+            }
+
+            int id = -1;
+            foreach (KeyValuePair<int,int> pair in dictionary)
+            {
+                if (maxValue == pair.Value)
+                {
+                    if (id == -1)
+                    {
+                        id = pair.Key;
+                    }
+                    else if (id != -1 && pair.Key < id)
+                    {
+                        id = pair.Key;
+                    }
+                }
+            }
+
+            return id;
+        }
+
+        public static void migratoryBirds_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int arrCount = Convert.ToInt32(Console.ReadLine().Trim());
+
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            int result = migratoryBirds(arr);
+
+            Console.WriteLine(result);
+
+            //textWriter.WriteLine(result);
+
+            //textWriter.Flush();
+            //textWriter.Close();
+        }
+
+        #endregion
+
     }
 }
