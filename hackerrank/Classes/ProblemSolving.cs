@@ -812,5 +812,38 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Day of the Programmer - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+
+        private static string dayOfProgrammer(int year)
+        {
+            if (year == 1918) { return "26.09.1918"; }
+            else if(year % 4 == 0 && (year < 1918 || year % 400 == 0 || year % 100 != 0))
+            {
+                return "12.09." + year;
+            }
+            return "13.09." + year;
+        }
+
+        public static void dayOfProgrammer_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int year = Convert.ToInt32(Console.ReadLine().Trim());
+
+            string result = dayOfProgrammer(year);
+
+            Console.WriteLine(result);
+
+            //textWriter.WriteLine(result);
+
+            //textWriter.Flush();
+            //textWriter.Close();
+        }
+
+        #endregion
+
     }
 }

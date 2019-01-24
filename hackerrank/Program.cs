@@ -43,7 +43,9 @@ namespace hackerrank
 
             //ProblemSolving.divisibleSumPairs_Main();
 
-            ProblemSolving.migratoryBirds_Main();
+            //ProblemSolving.migratoryBirds_Main();
+
+            ProblemSolving.dayOfProgrammer_Main();
 
 
             Console.ReadLine();
