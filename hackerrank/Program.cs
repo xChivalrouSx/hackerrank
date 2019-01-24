@@ -45,7 +45,9 @@ namespace hackerrank
 
             //ProblemSolving.migratoryBirds_Main();
 
-            ProblemSolving.dayOfProgrammer_Main();
+            //ProblemSolving.dayOfProgrammer_Main();
+
+            ProblemSolving.bonAppetit_Main();
 
 
             Console.ReadLine();
