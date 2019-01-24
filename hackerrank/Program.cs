@@ -47,7 +47,9 @@ namespace hackerrank
 
             //ProblemSolving.dayOfProgrammer_Main();
 
-            ProblemSolving.bonAppetit_Main();
+            //ProblemSolving.bonAppetit_Main();
+
+            ProblemSolving.sockMerchant_Main();
 
 
             Console.ReadLine();

@@ -887,5 +887,72 @@ namespace hackerrank.Classes
 
         #endregion
 
+
+        #region [ - Sock Merchant - ]
+
+        // Problem Link: https://www.hackerrank.com/challenges/sock-merchant/problem
+
+        private static int sockMerchant(int n, int[] ar)
+        {
+            int pair = 0;
+
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach (int value in ar)
+            {
+                if (!dic.ContainsKey(value))
+                {
+                    dic.Add(value, 1);
+                }
+                else
+                {
+                    dic[value] += 1;
+                }
+            }
+
+            foreach (KeyValuePair<int, int> keyValue in dic)
+            {
+                int sum = keyValue.Value;
+                while(true)
+                {
+                    if(sum - 2 == 0)
+                    {
+                        pair++;
+                        break;
+                    }
+                    else if ( sum - 2 < 0)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        pair++;
+                        sum -= 2;
+                    }
+                }
+            }
+
+            return pair;
+        }
+
+        public static void sockMerchant_Main()
+        {
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
+            ;
+            int result = sockMerchant(n, ar);
+
+            Console.WriteLine(result);
+
+            //textWriter.WriteLine(result);
+
+            //textWriter.Flush();
+            //textWriter.Close();
+        }
+
+        #endregion
+
     }
 }
