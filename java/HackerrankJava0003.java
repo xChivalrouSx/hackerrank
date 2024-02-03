@@ -5,6 +5,9 @@ public class HackerrankJava0003 {
 	private static final Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
+		// Java If-Else
+		// https://www.hackerrank.com/challenges/java-if-else/problem?isFullScreen=true
+
 		int N = scanner.nextInt();
 		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
