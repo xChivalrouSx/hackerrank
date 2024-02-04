@@ -10,3 +10,5 @@
 | 008 | [Java End-of-file](https://www.hackerrank.com/challenges/java-end-of-file/problem?isFullScreen=true) | [HackerrankJava0008](./HackerrankJava0008.java) |
 | 009 | [Java Static Initializer Block](https://www.hackerrank.com/challenges/java-static-initializer-block/problem?isFullScreen=true) | [HackerrankJava0009](./HackerrankJava0009.java) |
 | 010 | [Java Int to String](https://www.hackerrank.com/challenges/java-int-to-string/problem?isFullScreen=true) | [HackerrankJava0010](./HackerrankJava0010.java) |
+| 011 | [Java Date and Time](https://www.hackerrank.com/challenges/java-date-and-time/problem?isFullScreen=true) | [HackerrankJava0011](./HackerrankJava0011.java) |
+| 012 | [Java Currency Formatter](https://www.hackerrank.com/challenges/java-currency-formatter/problem?isFullScreen=true) | [HackerrankJava0012](./HackerrankJava0012.java) |
