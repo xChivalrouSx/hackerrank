@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class HackerrankJava0006 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Stdin and Stdout II
 		// https://www.hackerrank.com/challenges/java-stdin-stdout/problem?isFullScreen=true
 

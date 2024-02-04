@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class HackerrankJava0007 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Loops II
 		// https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
 
