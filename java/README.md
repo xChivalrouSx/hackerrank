@@ -12,3 +12,5 @@
 | 010 | [Java Int to String](https://www.hackerrank.com/challenges/java-int-to-string/problem?isFullScreen=true) | [HackerrankJava0010](./HackerrankJava0010.java) |
 | 011 | [Java Date and Time](https://www.hackerrank.com/challenges/java-date-and-time/problem?isFullScreen=true) | [HackerrankJava0011](./HackerrankJava0011.java) |
 | 012 | [Java Currency Formatter](https://www.hackerrank.com/challenges/java-currency-formatter/problem?isFullScreen=true) | [HackerrankJava0012](./HackerrankJava0012.java) |
+| 013 | [Java BigInteger](https://www.hackerrank.com/challenges/java-biginteger/problem?isFullScreen=true) | [HackerrankJava0013](./HackerrankJava0013.java) |
+| 014 | [Java BigDecimal](https://www.hackerrank.com/challenges/java-bigdecimal/problem?isFullScreen=true) | [HackerrankJava0014](./HackerrankJava0014.java) |
