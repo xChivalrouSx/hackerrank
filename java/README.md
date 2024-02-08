@@ -14,3 +14,6 @@
 | 012 | [Java Currency Formatter](https://www.hackerrank.com/challenges/java-currency-formatter/problem?isFullScreen=true) | [HackerrankJava0012](./HackerrankJava0012.java) |
 | 013 | [Java BigInteger](https://www.hackerrank.com/challenges/java-biginteger/problem?isFullScreen=true) | [HackerrankJava0013](./HackerrankJava0013.java) |
 | 014 | [Java BigDecimal](https://www.hackerrank.com/challenges/java-bigdecimal/problem?isFullScreen=true) | [HackerrankJava0014](./HackerrankJava0014.java) |
+| 015 | [Java Primality Test](https://www.hackerrank.com/challenges/java-primality-test/problem?isFullScreen=true) | [HackerrankJava0015](./HackerrankJava0015.java) |
+| 016 | [Java Strings Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem?isFullScreen=true) | [HackerrankJava0016](./HackerrankJava0016.java) |
+| 017 | [Java Substring](https://www.hackerrank.com/challenges/java-substring/problem?isFullScreen=true) | [HackerrankJava0017](./HackerrankJava0017.java) |
