@@ -17,3 +17,7 @@
 | 015 | [Java Primality Test](https://www.hackerrank.com/challenges/java-primality-test/problem?isFullScreen=true) | [HackerrankJava0015](./HackerrankJava0015.java) |
 | 016 | [Java Strings Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem?isFullScreen=true) | [HackerrankJava0016](./HackerrankJava0016.java) |
 | 017 | [Java Substring](https://www.hackerrank.com/challenges/java-substring/problem?isFullScreen=true) | [HackerrankJava0017](./HackerrankJava0017.java) |
+| 018 | [Java Substring Comparisons](https://www.hackerrank.com/challenges/java-string-compare/problem?isFullScreen=true) | [HackerrankJava0018](./HackerrankJava0018.java) |
+| 019 | [Java String Reverse](https://www.hackerrank.com/challenges/java-string-reverse/problem?isFullScreen=true) | [HackerrankJava0019](./HackerrankJava0019.java) |
+| 020 | [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true) | [HackerrankJava0020](./HackerrankJava0020.java) |
+| 021 | [Java String Tokens](https://www.hackerrank.com/challenges/java-string-tokens/problem?isFullScreen=true) | [HackerrankJava0021](./HackerrankJava0021.java) |
