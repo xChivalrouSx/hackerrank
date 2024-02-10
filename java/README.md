@@ -21,3 +21,6 @@
 | 019 | [Java String Reverse](https://www.hackerrank.com/challenges/java-string-reverse/problem?isFullScreen=true) | [HackerrankJava0019](./HackerrankJava0019.java) |
 | 020 | [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true) | [HackerrankJava0020](./HackerrankJava0020.java) |
 | 021 | [Java String Tokens](https://www.hackerrank.com/challenges/java-string-tokens/problem?isFullScreen=true) | [HackerrankJava0021](./HackerrankJava0021.java) |
+| 022 | [Pattern Syntax Checker](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem?isFullScreen=true) | [HackerrankJava0022](./HackerrankJava0022.java) |
+| 023 | [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem?isFullScreen=true) | [HackerrankJava0023](./HackerrankJava0023.java) |
+| 024 | [Java Regex 2 - Duplicate Words](https://www.hackerrank.com/challenges/duplicate-word/problem?isFullScreen=true) | [HackerrankJava0024](./HackerrankJava0024.java) |
