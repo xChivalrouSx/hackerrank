@@ -8,8 +8,6 @@ class UsernameValidator {
 
 public class HackerrankJava0026 {
 
-	private static final Scanner scan = new Scanner(System.in);
-
 	public static void main(String[] args) {
 		// Tag Content Extractor
 		// https://www.hackerrank.com/challenges/tag-content-extractor/problem?isFullScreen=true

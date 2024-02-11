@@ -27,3 +27,6 @@
 | 025 | [Valid Username Regular Expression](https://www.hackerrank.com/challenges/valid-username-checker/problem?isFullScreen=true) | [HackerrankJava0025](./HackerrankJava0025.java) |
 | 026 | [Tag Content Extractor](https://www.hackerrank.com/challenges/tag-content-extractor/problem?isFullScreen=true) | [HackerrankJava0026](./HackerrankJava0026.java) |
 | 027 | [Java 1D Array](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem?isFullScreen=true) | [HackerrankJava0027](./HackerrankJava0027.java) |
+| 028 | [Java 2D Array](https://www.hackerrank.com/challenges/java-2d-array/problem?isFullScreen=true) | [HackerrankJava0028](./HackerrankJava0028.java) |
+| 029 | [Java Subarray](https://www.hackerrank.com/challenges/java-negative-subarray/problem?isFullScreen=true) | [HackerrankJava0029](./HackerrankJava0029.java) |
+| 030 | [Java Arraylist](https://www.hackerrank.com/challenges/java-arraylist/problem?isFullScreen=true) | [HackerrankJava0030](./HackerrankJava0030.java) |
