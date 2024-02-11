@@ -24,3 +24,6 @@
 | 022 | [Pattern Syntax Checker](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem?isFullScreen=true) | [HackerrankJava0022](./HackerrankJava0022.java) |
 | 023 | [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem?isFullScreen=true) | [HackerrankJava0023](./HackerrankJava0023.java) |
 | 024 | [Java Regex 2 - Duplicate Words](https://www.hackerrank.com/challenges/duplicate-word/problem?isFullScreen=true) | [HackerrankJava0024](./HackerrankJava0024.java) |
+| 025 | [Valid Username Regular Expression](https://www.hackerrank.com/challenges/valid-username-checker/problem?isFullScreen=true) | [HackerrankJava0025](./HackerrankJava0025.java) |
+| 026 | [Tag Content Extractor](https://www.hackerrank.com/challenges/tag-content-extractor/problem?isFullScreen=true) | [HackerrankJava0026](./HackerrankJava0026.java) |
+| 027 | [Java 1D Array](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem?isFullScreen=true) | [HackerrankJava0027](./HackerrankJava0027.java) |
