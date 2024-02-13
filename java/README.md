@@ -30,3 +30,6 @@
 | 028 | [Java 2D Array](https://www.hackerrank.com/challenges/java-2d-array/problem?isFullScreen=true) | [HackerrankJava0028](./HackerrankJava0028.java) |
 | 029 | [Java Subarray](https://www.hackerrank.com/challenges/java-negative-subarray/problem?isFullScreen=true) | [HackerrankJava0029](./HackerrankJava0029.java) |
 | 030 | [Java Arraylist](https://www.hackerrank.com/challenges/java-arraylist/problem?isFullScreen=true) | [HackerrankJava0030](./HackerrankJava0030.java) |
+| 031 | [Java 1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array/problem?isFullScreen=true) | [HackerrankJava0031](./HackerrankJava0031.java) |
+| 032 | [Java List](https://www.hackerrank.com/challenges/java-list/problem?isFullScreen=true) | [HackerrankJava0032](./HackerrankJava0032.java) |
+| 033 | [Java Map](https://www.hackerrank.com/challenges/phone-book/problem?isFullScreen=true) | [HackerrankJava0033](./HackerrankJava0033.java) |
