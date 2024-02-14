@@ -33,3 +33,4 @@
 | 031 | [Java 1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array/problem?isFullScreen=true) | [HackerrankJava0031](./HackerrankJava0031.java) |
 | 032 | [Java List](https://www.hackerrank.com/challenges/java-list/problem?isFullScreen=true) | [HackerrankJava0032](./HackerrankJava0032.java) |
 | 033 | [Java Map](https://www.hackerrank.com/challenges/phone-book/problem?isFullScreen=true) | [HackerrankJava0033](./HackerrankJava0033.java) |
+| 034 | [Java Stack](https://www.hackerrank.com/challenges/java-stack/problem?isFullScreen=true) | [HackerrankJava0034](./HackerrankJava0034.java) |
