@@ -1,11 +1,10 @@
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class HackerrankJava0032 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java List
 		// https://www.hackerrank.com/challenges/java-list/problem?isFullScreen=true
 

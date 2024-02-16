@@ -1,11 +1,10 @@
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
 public class HackerrankJava0035 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Hashset
 		// https://www.hackerrank.com/challenges/java-hashset/problem?isFullScreen=true
 

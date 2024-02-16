@@ -1,10 +1,9 @@
-import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 
 public class HackerrankJava0033 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Map
 		// https://www.hackerrank.com/challenges/phone-book/problem?isFullScreen=true
 

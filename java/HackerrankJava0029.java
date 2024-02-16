@@ -1,11 +1,10 @@
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class HackerrankJava0029 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Subarray
 		// https://www.hackerrank.com/challenges/java-negative-subarray/problem?isFullScreen=true
 

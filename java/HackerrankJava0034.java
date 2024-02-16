@@ -1,10 +1,9 @@
-import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class HackerrankJava0034 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Stack
 		// https://www.hackerrank.com/challenges/java-stack/problem?isFullScreen=true
 

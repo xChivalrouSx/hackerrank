@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class HackerrankJava0031 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java 1D Array (Part 2)
 		// https://www.hackerrank.com/challenges/java-1d-array/problem?isFullScreen=true
 

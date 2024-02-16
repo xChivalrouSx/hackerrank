@@ -1,10 +1,9 @@
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 public class HackerrankJava0036 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// Java Generics
 		// https://www.hackerrank.com/challenges/java-generics/problem?isFullScreen=true
 

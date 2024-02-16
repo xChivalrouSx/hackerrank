@@ -36,3 +36,4 @@
 | 034 | [Java Stack](https://www.hackerrank.com/challenges/java-stack/problem?isFullScreen=true) | [HackerrankJava0034](./HackerrankJava0034.java) |
 | 035 | [Java Hashset](https://www.hackerrank.com/challenges/java-hashset/problem?isFullScreen=true) | [HackerrankJava0035](./HackerrankJava0035.java) |
 | 036 | [Java Generics](https://www.hackerrank.com/challenges/java-generics/problem?isFullScreen=true) | [HackerrankJava0036](./HackerrankJava0036.java) |
+| 037 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem?isFullScreen=true) | [HackerrankJava0037](./HackerrankJava0037.java) |
