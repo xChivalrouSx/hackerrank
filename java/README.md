@@ -37,3 +37,5 @@
 | 035 | [Java Hashset](https://www.hackerrank.com/challenges/java-hashset/problem?isFullScreen=true) | [HackerrankJava0035](./HackerrankJava0035.java) |
 | 036 | [Java Generics](https://www.hackerrank.com/challenges/java-generics/problem?isFullScreen=true) | [HackerrankJava0036](./HackerrankJava0036.java) |
 | 037 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem?isFullScreen=true) | [HackerrankJava0037](./HackerrankJava0037.java) |
+| 038 | [Java Sort](https://www.hackerrank.com/challenges/java-sort/problem?isFullScreen=true) | [HackerrankJava0038](./HackerrankJava0038.java) |
+| 039 | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue/problem?isFullScreen=true) | [HackerrankJava0039](./HackerrankJava0039.java) |

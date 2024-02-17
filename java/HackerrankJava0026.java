@@ -2,10 +2,6 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class UsernameValidator {
-	public static final String regularExpression = "^[a-zA-Z][a-zA-Z0-9_]{7,29}";
-}
-
 public class HackerrankJava0026 {
 
 	public static void main(String[] args) {
