@@ -39,3 +39,5 @@
 | 037 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem?isFullScreen=true) | [HackerrankJava0037](./HackerrankJava0037.java) |
 | 038 | [Java Sort](https://www.hackerrank.com/challenges/java-sort/problem?isFullScreen=true) | [HackerrankJava0038](./HackerrankJava0038.java) |
 | 039 | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue/problem?isFullScreen=true) | [HackerrankJava0039](./HackerrankJava0039.java) |
+| 040 | [Java BitSet](https://www.hackerrank.com/challenges/java-bitset/problem?isFullScreen=true) | [HackerrankJava0040](./HackerrankJava0040.java) |
+| 041 | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue/problem?isFullScreen=true) | [HackerrankJava0041](./HackerrankJava0041.java) |
