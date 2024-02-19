@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class HackerrankJava0041 {
 
-	private final static Scanner scan = new Scanner(System.in);
-	private final static Priorities priorities = new Priorities();
+	private static final Scanner scan = new Scanner(System.in);
+	private static final Priorities priorities = new Priorities();
 
 	public static void main(String[] args) {
 		// Java Priority Queue

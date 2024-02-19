@@ -41,3 +41,5 @@
 | 039 | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue/problem?isFullScreen=true) | [HackerrankJava0039](./HackerrankJava0039.java) |
 | 040 | [Java BitSet](https://www.hackerrank.com/challenges/java-bitset/problem?isFullScreen=true) | [HackerrankJava0040](./HackerrankJava0040.java) |
 | 041 | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue/problem?isFullScreen=true) | [HackerrankJava0041](./HackerrankJava0041.java) |
+| 042 | [Java Annotations](https://www.hackerrank.com/challenges/java-annotations/problem?isFullScreen=true) | [HackerrankJava0042](./HackerrankJava0042.java) |
+| 043 | [Covariant Return Types](https://www.hackerrank.com/challenges/java-covariance/problem?isFullScreen=true) | [HackerrankJava0043](./HackerrankJava0043.java) |

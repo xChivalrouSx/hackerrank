@@ -1,11 +1,5 @@
-import java.util.ArrayDeque;
 import java.util.BitSet;
-import java.util.Deque;
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class HackerrankJava0040 {
 

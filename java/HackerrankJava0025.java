@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-class UsernameValidator {
-	public static final String regularExpression = "^[a-zA-Z][a-zA-Z0-9_]{7,29}";
-}
-
 public class HackerrankJava0025 {
 
 	private static final Scanner scan = new Scanner(System.in);
@@ -26,4 +22,8 @@ public class HackerrankJava0025 {
 		scan.close();
 	}
 
+}
+
+class UsernameValidator {
+	public static final String regularExpression = "^[a-zA-Z][a-zA-Z0-9_]{7,29}";
 }
