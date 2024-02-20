@@ -43,3 +43,13 @@
 | 041 | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue/problem?isFullScreen=true) | [HackerrankJava0041](./HackerrankJava0041.java) |
 | 042 | [Java Annotations](https://www.hackerrank.com/challenges/java-annotations/problem?isFullScreen=true) | [HackerrankJava0042](./HackerrankJava0042.java) |
 | 043 | [Covariant Return Types](https://www.hackerrank.com/challenges/java-covariance/problem?isFullScreen=true) | [HackerrankJava0043](./HackerrankJava0043.java) |
+| 044 | [Java Lambda Expressions](https://www.hackerrank.com/challenges/java-lambda-expressions/problem?isFullScreen=true) | [HackerrankJava0044](./HackerrankJava0044.java) |
+| 045 | [Java MD5](https://www.hackerrank.com/challenges/java-md5/problem?isFullScreen=true) | [HackerrankJava0045](./HackerrankJava0045.java) |
+| 046 | [Java SHA-256](https://www.hackerrank.com/challenges/sha-256/problem?isFullScreen=true) | [HackerrankJava0046](./HackerrankJava0046.java) |
+| 047 | [Java Method Overriding 2 (Super Keyword)](https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword/problem?isFullScreen=true) | [HackerrankJava0047](./HackerrankJava0047.java) |
+| 048 | [Java Instanceof keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword/problem?isFullScreen=true) | [HackerrankJava0048](./HackerrankJava0048.java) |
+| 049 | [Java Iterator](https://www.hackerrank.com/challenges/java-iterator/problem?isFullScreen=true) | [HackerrankJava0049](./HackerrankJava0049.java) |
+| 050 | [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2/problem?isFullScreen=true) | [HackerrankJava0050](./HackerrankJava0050.java) |
+| 051 | [Java Abstract Class](https://www.hackerrank.com/challenges/java-abstract-class/problem?isFullScreen=true) | [HackerrankJava0051](./HackerrankJava0051.java) |
+| 052 | [Java Interface](https://www.hackerrank.com/challenges/java-interface/problem?isFullScreen=true) | [HackerrankJava0052](./HackerrankJava0052.java) |
+| 053 | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding/problem?isFullScreen=true) | [HackerrankJava0053](./HackerrankJava0053.java) |
