@@ -53,3 +53,5 @@
 | 051 | [Java Abstract Class](https://www.hackerrank.com/challenges/java-abstract-class/problem?isFullScreen=true) | [HackerrankJava0051](./HackerrankJava0051.java) |
 | 052 | [Java Interface](https://www.hackerrank.com/challenges/java-interface/problem?isFullScreen=true) | [HackerrankJava0052](./HackerrankJava0052.java) |
 | 053 | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding/problem?isFullScreen=true) | [HackerrankJava0053](./HackerrankJava0053.java) |
+| 054 | [Java Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1/problem?isFullScreen=true) | [HackerrankJava0054](./HackerrankJava0054.java) |
+| 055 | [Java Exception Handling (Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch/problem?isFullScreen=true) | [HackerrankJava0055](./HackerrankJava0055.java) |
