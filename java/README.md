@@ -55,3 +55,5 @@
 | 053 | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding/problem?isFullScreen=true) | [HackerrankJava0053](./HackerrankJava0053.java) |
 | 054 | [Java Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1/problem?isFullScreen=true) | [HackerrankJava0054](./HackerrankJava0054.java) |
 | 055 | [Java Exception Handling (Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch/problem?isFullScreen=true) | [HackerrankJava0055](./HackerrankJava0055.java) |
+| 056 | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling/problem?isFullScreen=true) | [HackerrankJava0056](./HackerrankJava0056.java) |
+| 057 | [Java Varargs - Simple Addition](https://www.hackerrank.com/challenges/simple-addition-varargs/problem?isFullScreen=true) | [HackerrankJava0057](./HackerrankJava0057.java) |
