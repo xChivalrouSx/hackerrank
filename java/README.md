@@ -57,3 +57,5 @@
 | 055 | [Java Exception Handling (Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch/problem?isFullScreen=true) | [HackerrankJava0055](./HackerrankJava0055.java) |
 | 056 | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling/problem?isFullScreen=true) | [HackerrankJava0056](./HackerrankJava0056.java) |
 | 057 | [Java Varargs - Simple Addition](https://www.hackerrank.com/challenges/simple-addition-varargs/problem?isFullScreen=true) | [HackerrankJava0057](./HackerrankJava0057.java) |
+| 058 | [Java Singleton Pattern](https://www.hackerrank.com/challenges/java-singleton/problem?isFullScreen=true) | [HackerrankJava0058](./HackerrankJava0058.java) |
+| 059 | [Java Factory Pattern](https://www.hackerrank.com/challenges/java-factory/problem?isFullScreen=true) | [HackerrankJava0059](./HackerrankJava0059.java) |
