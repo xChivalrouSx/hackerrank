@@ -59,3 +59,6 @@
 | 057 | [Java Varargs - Simple Addition](https://www.hackerrank.com/challenges/simple-addition-varargs/problem?isFullScreen=true) | [HackerrankJava0057](./HackerrankJava0057.java) |
 | 058 | [Java Singleton Pattern](https://www.hackerrank.com/challenges/java-singleton/problem?isFullScreen=true) | [HackerrankJava0058](./HackerrankJava0058.java) |
 | 059 | [Java Factory Pattern](https://www.hackerrank.com/challenges/java-factory/problem?isFullScreen=true) | [HackerrankJava0059](./HackerrankJava0059.java) |
+| 060 | [Java Reflection - Attributes](https://www.hackerrank.com/challenges/java-reflection-attributes/problem?isFullScreen=true) | [HackerrankJava0060](./HackerrankJava0060.java) |
+| 061 | [Java Datatypes](https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true) | [HackerrankJava0061](./HackerrankJava0061.java) |
+| 062 | [Can You Access?](https://www.hackerrank.com/challenges/can-you-access/problem?isFullScreen=true) | [HackerrankJava0062](./HackerrankJava0062.java) |
