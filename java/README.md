@@ -62,3 +62,4 @@
 | 060 | [Java Reflection - Attributes](https://www.hackerrank.com/challenges/java-reflection-attributes/problem?isFullScreen=true) | [HackerrankJava0060](./HackerrankJava0060.java) |
 | 061 | [Java Datatypes](https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true) | [HackerrankJava0061](./HackerrankJava0061.java) |
 | 062 | [Can You Access?](https://www.hackerrank.com/challenges/can-you-access/problem?isFullScreen=true) | [HackerrankJava0062](./HackerrankJava0062.java) |
+| 063 | [Prime Checker](https://www.hackerrank.com/challenges/prime-checker/problem?isFullScreen=true) | [HackerrankJava0063](./HackerrankJava0063.java) |
