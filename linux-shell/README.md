@@ -23,3 +23,7 @@
 | 021 | [Head of a Text File #2](https://www.hackerrank.com/challenges/text-processing-head-2/problem?isFullScreen=true) | [00021_HackerrankLinuxShell](./00021_HackerrankLinuxShell.sh) |
 | 022 | [Middle of a Text File](https://www.hackerrank.com/challenges/text-processing-in-linux---the-middle-of-a-text-file/problem?isFullScreen=true) | [00022_HackerrankLinuxShell](./00022_HackerrankLinuxShell.sh) |
 | 023 | [Tail of a Text File #1](https://www.hackerrank.com/challenges/text-processing-tail-1/problem?isFullScreen=true) | [00023_HackerrankLinuxShell](./00023_HackerrankLinuxShell.sh) |
+| 024 | [Tail of a Text File #2](https://www.hackerrank.com/challenges/text-processing-tail-2/problem?isFullScreen=true) | [00024_HackerrankLinuxShell](./00024_HackerrankLinuxShell.sh) |
+| 025 | ['Tr' Command #1](https://www.hackerrank.com/challenges/text-processing-tr-1/problem?isFullScreen=true) | [00025_HackerrankLinuxShell](./00025_HackerrankLinuxShell.sh) |
+| 026 | ['Tr' Command #2](https://www.hackerrank.com/challenges/text-processing-tr-2/problem?isFullScreen=true) | [00026_HackerrankLinuxShell](./00026_HackerrankLinuxShell.sh) |
+| 026 | ['Tr' Command #3](https://www.hackerrank.com/challenges/text-processing-tr-3/problem?isFullScreen=true) | [00027_HackerrankLinuxShell](./00027_HackerrankLinuxShell.sh) |
