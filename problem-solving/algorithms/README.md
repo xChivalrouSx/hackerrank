@@ -1,0 +1,5 @@
+|  #  | HackerRank Challange | Java Solution | C# Solution |
+| --- | -------------------- | -------- |
+| 001 | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true) | [HackerrankPsAlgorithms0001](./dotnet/HackerrankPsAlgorithms0001.java) | [HackerrankPsAlgorithms0001](./dotnet/HackerrankPsAlgorithms0001.cs) |
+| 002 | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true) | [HackerrankPsAlgorithms0002](./dotnet/HackerrankPsAlgorithms0002.java) | [HackerrankPsAlgorithms0002](./dotnet/HackerrankPsAlgorithms0002.cs) |
+| 002 | [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true) | [HackerrankPsAlgorithms0003](./dotnet/HackerrankPsAlgorithms0003.java) | [HackerrankPsAlgorithms0003](./dotnet/HackerrankPsAlgorithms0003.cs) |
