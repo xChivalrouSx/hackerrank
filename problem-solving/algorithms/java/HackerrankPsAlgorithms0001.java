@@ -5,8 +5,8 @@ public class HackerrankPsAlgorithms0001 {
 	// Solve Me First
 	// https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true
 
+	// --- You need to fill this method ---
 	static int solveMeFirst(int a, int b) {
-		// --- You need to fill this method ---
 		return a + b;
 	}
 
@@ -20,4 +20,5 @@ public class HackerrankPsAlgorithms0001 {
 		sum = solveMeFirst(a, b);
 		System.out.println(sum);
 	}
+
 }

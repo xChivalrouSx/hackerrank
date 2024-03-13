@@ -13,14 +13,15 @@ class Result {
 	// Simple Array Sum
 	// https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 
+	// --- You need to fill this method ---
 	public static int simpleArraySum(List<Integer> ar) {
-		// --- You need to fill this method ---
 		return ar.stream().mapToInt(Integer::intValue).sum();
 	}
 
 }
 
 public class HackerrankPsAlgorithms0002 {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -39,4 +40,5 @@ public class HackerrankPsAlgorithms0002 {
 		bufferedReader.close();
 		bufferedWriter.close();
 	}
+
 }
