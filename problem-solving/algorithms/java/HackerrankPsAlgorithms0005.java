@@ -28,6 +28,7 @@ class Result {
 }
 
 public class HackerrankPsAlgorithms0005 {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -41,4 +42,5 @@ public class HackerrankPsAlgorithms0005 {
 
 		bufferedReader.close();
 	}
+
 }
