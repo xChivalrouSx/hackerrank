@@ -12,3 +12,5 @@
 | 010 | [Grading Students](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0010](./HackerrankPsAlgorithms0010.java) |
 | 011 | [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0011](./HackerrankPsAlgorithms0011.java) |
 | 012 | [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0012](./HackerrankPsAlgorithms0012.java) |
+| 013 | [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0013](./HackerrankPsAlgorithms0013.java) |
+| 014 | [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0014](./HackerrankPsAlgorithms0014.java) |
