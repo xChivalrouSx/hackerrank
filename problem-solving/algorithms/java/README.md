@@ -14,3 +14,6 @@
 | 012 | [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0012](./HackerrankPsAlgorithms0012.java) |
 | 013 | [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0013](./HackerrankPsAlgorithms0013.java) |
 | 014 | [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0014](./HackerrankPsAlgorithms0014.java) |
+| 015 | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0015](./HackerrankPsAlgorithms0015.java) |
+| 016 | [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0016](./HackerrankPsAlgorithms0016.java) |
+| 017 | [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0017](./HackerrankPsAlgorithms0017.java) |
