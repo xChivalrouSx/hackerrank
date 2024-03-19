@@ -17,3 +17,7 @@
 | 015 | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0015](./HackerrankPsAlgorithms0015.java) |
 | 016 | [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0016](./HackerrankPsAlgorithms0016.java) |
 | 017 | [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0017](./HackerrankPsAlgorithms0017.java) |
+| 018 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0018](./HackerrankPsAlgorithms0018.java) |
+| 019 | [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0019](./HackerrankPsAlgorithms0019.java) |
+| 020 | [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0020](./HackerrankPsAlgorithms0020.java) |
+| 021 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0021](./HackerrankPsAlgorithms0021.java) |
