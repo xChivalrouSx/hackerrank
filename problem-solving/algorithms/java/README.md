@@ -25,3 +25,6 @@
 | 023 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0023](./HackerrankPsAlgorithms0023.java) |
 | 024 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0024](./HackerrankPsAlgorithms0024.java) |
 | 025 | [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0025](./HackerrankPsAlgorithms0025.java) |
+| 026 | [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0026](./HackerrankPsAlgorithms0026.java) |
+| 027 | [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0027](./HackerrankPsAlgorithms0027.java) |
+| 028 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0028](./HackerrankPsAlgorithms0028.java) |
