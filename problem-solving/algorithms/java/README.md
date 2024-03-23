@@ -22,4 +22,6 @@
 | 020 | [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0020](./HackerrankPsAlgorithms0020.java) |
 | 021 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0021](./HackerrankPsAlgorithms0021.java) |
 | 022 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0022](./HackerrankPsAlgorithms0022.java) |
-| 022 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0023](./HackerrankPsAlgorithms0023.java) |
+| 023 | [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0023](./HackerrankPsAlgorithms0023.java) |
+| 024 | [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0024](./HackerrankPsAlgorithms0024.java) |
+| 025 | [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0025](./HackerrankPsAlgorithms0025.java) |
