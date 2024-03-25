@@ -28,3 +28,5 @@
 | 026 | [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0026](./HackerrankPsAlgorithms0026.java) |
 | 027 | [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0027](./HackerrankPsAlgorithms0027.java) |
 | 028 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0028](./HackerrankPsAlgorithms0028.java) |
+| 029 | [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0029](./HackerrankPsAlgorithms0029.java) |
+| 030 | [Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0030](./HackerrankPsAlgorithms0030.java) |
