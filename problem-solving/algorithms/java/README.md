@@ -30,3 +30,5 @@
 | 028 | [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0028](./HackerrankPsAlgorithms0028.java) |
 | 029 | [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0029](./HackerrankPsAlgorithms0029.java) |
 | 030 | [Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0030](./HackerrankPsAlgorithms0030.java) |
+| 031 | [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0031](./HackerrankPsAlgorithms0031.java) |
+| 032 | [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0032](./HackerrankPsAlgorithms0032.java) |
