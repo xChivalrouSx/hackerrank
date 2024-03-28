@@ -34,3 +34,5 @@
 | 032 | [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0032](./HackerrankPsAlgorithms0032.java) |
 | 033 | [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0033](./HackerrankPsAlgorithms0033.java) |
 | 034 | [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0034](./HackerrankPsAlgorithms0034.java) |
+| 035 | [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0035](./HackerrankPsAlgorithms0035.java) |
+| 036 | [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0036](./HackerrankPsAlgorithms0036.java) |
