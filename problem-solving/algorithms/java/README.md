@@ -36,3 +36,5 @@
 | 034 | [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0034](./HackerrankPsAlgorithms0034.java) |
 | 035 | [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0035](./HackerrankPsAlgorithms0035.java) |
 | 036 | [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0036](./HackerrankPsAlgorithms0036.java) |
+| 037 | [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0037](./HackerrankPsAlgorithms0037.java) |
+| 038 | [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0038](./HackerrankPsAlgorithms0038.java) |
