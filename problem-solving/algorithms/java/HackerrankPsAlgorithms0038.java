@@ -18,7 +18,7 @@ class Result {
 		return result;
 	}
 
-	public static String appendAndContinue(String s, String t, int k) {
+	private static String appendAndContinue(String s, String t, int k) {
 		s += "_";
 		k -= 1;
 
@@ -33,7 +33,7 @@ class Result {
 		}
 	}
 
-	public static String deleteAndContinue(String s, String t, int k) {
+	private static String deleteAndContinue(String s, String t, int k) {
 		s = s.isEmpty() ? s : s.substring(0, s.length() - 1);
 		k -= 1;
 

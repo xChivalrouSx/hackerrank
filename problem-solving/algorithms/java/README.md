@@ -38,3 +38,5 @@
 | 036 | [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0036](./HackerrankPsAlgorithms0036.java) |
 | 037 | [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0037](./HackerrankPsAlgorithms0037.java) |
 | 038 | [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0038](./HackerrankPsAlgorithms0038.java) |
+| 039 | [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0039](./HackerrankPsAlgorithms0039.java) |
+| 040 | [Library Fine](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0040](./HackerrankPsAlgorithms0040.java) |
