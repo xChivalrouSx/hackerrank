@@ -40,3 +40,5 @@
 | 038 | [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0038](./HackerrankPsAlgorithms0038.java) |
 | 039 | [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0039](./HackerrankPsAlgorithms0039.java) |
 | 040 | [Library Fine](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0040](./HackerrankPsAlgorithms0040.java) |
+| 041 | [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0041](./HackerrankPsAlgorithms0041.java) |
+| 042 | [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0042](./HackerrankPsAlgorithms0042.java) |
