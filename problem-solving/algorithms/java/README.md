@@ -42,3 +42,5 @@
 | 040 | [Library Fine](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0040](./HackerrankPsAlgorithms0040.java) |
 | 041 | [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0041](./HackerrankPsAlgorithms0041.java) |
 | 042 | [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0042](./HackerrankPsAlgorithms0042.java) |
+| 043 | [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0043](./HackerrankPsAlgorithms0043.java) |
+| 044 | [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0044](./HackerrankPsAlgorithms0044.java) |
