@@ -44,3 +44,5 @@
 | 042 | [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0042](./HackerrankPsAlgorithms0042.java) |
 | 043 | [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0043](./HackerrankPsAlgorithms0043.java) |
 | 044 | [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0044](./HackerrankPsAlgorithms0044.java) |
+| 045 | [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0045](./HackerrankPsAlgorithms0045.java) |
+| 046 | [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0046](./HackerrankPsAlgorithms0046.java) |

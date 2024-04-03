@@ -22,6 +22,7 @@ class Result {
 				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 		return arr.size() - elementCount.values().stream().max(Long::compare).get().intValue();
 	}
+
 }
 
 public class HackerrankPsAlgorithms0044 {

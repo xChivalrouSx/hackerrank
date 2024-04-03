@@ -24,6 +24,7 @@ class Result {
 		}
 		return result - 1;
 	}
+
 }
 
 public class HackerrankPsAlgorithms0043 {
