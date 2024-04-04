@@ -46,3 +46,5 @@
 | 044 | [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0044](./HackerrankPsAlgorithms0044.java) |
 | 045 | [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0045](./HackerrankPsAlgorithms0045.java) |
 | 046 | [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0046](./HackerrankPsAlgorithms0046.java) |
+| 047 | [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0047](./HackerrankPsAlgorithms0047.java) |
+| 048 | [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0048](./HackerrankPsAlgorithms0048.java) |
