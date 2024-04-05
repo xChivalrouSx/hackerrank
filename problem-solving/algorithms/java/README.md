@@ -48,3 +48,5 @@
 | 046 | [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0046](./HackerrankPsAlgorithms0046.java) |
 | 047 | [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0047](./HackerrankPsAlgorithms0047.java) |
 | 048 | [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0048](./HackerrankPsAlgorithms0048.java) |
+| 049 | [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0049](./HackerrankPsAlgorithms0049.java) |
+| 050 | [Halloween Sale](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0050](./HackerrankPsAlgorithms0050.java) |
