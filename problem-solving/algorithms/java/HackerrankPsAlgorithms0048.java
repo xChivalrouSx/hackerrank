@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0048 {
 	// Beautiful Triplets
 	// https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true
 
@@ -26,10 +25,6 @@ class Result {
 		return count;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0048 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -44,7 +39,7 @@ public class HackerrankPsAlgorithms0048 {
 				.map(Integer::parseInt)
 				.collect(Collectors.toList());
 
-		int result = Result.beautifulTriplets(d, arr);
+		int result = beautifulTriplets(d, arr);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

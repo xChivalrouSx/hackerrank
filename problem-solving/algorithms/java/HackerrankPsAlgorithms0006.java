@@ -2,8 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0006 {
 	// Staircase
 	// https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
 
@@ -21,16 +20,12 @@ class Result {
 		}
 	}
 
-}
-
-public class HackerrankPsAlgorithms0006 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-		Result.staircase(n);
+		staircase(n);
 
 		bufferedReader.close();
 	}

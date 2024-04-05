@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0046 {
 	// Taum and B'day
 	// https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true
 
@@ -22,10 +21,6 @@ class Result {
 		}
 		return result;
 	}
-
-}
-
-public class HackerrankPsAlgorithms0046 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -49,7 +44,7 @@ public class HackerrankPsAlgorithms0046 {
 
 				int z = Integer.parseInt(secondMultipleInput[2]);
 
-				long result = Result.taumBday(b, w, bc, wc, z);
+				long result = taumBday(b, w, bc, wc, z);
 
 				bufferedWriter.write(String.valueOf(result));
 				bufferedWriter.newLine();

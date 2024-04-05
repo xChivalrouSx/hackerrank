@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0018 {
 	// Day of the Programmer
 	// https://www.hackerrank.com/challenges/day-of-the-programmer/problem?isFullScreen=true
 
@@ -28,17 +27,13 @@ class Result {
 		return result + year;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0018 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
 		int year = Integer.parseInt(bufferedReader.readLine().trim());
 
-		String result = Result.dayOfProgrammer(year);
+		String result = dayOfProgrammer(year);
 
 		bufferedWriter.write(result);
 		bufferedWriter.newLine();

@@ -1,27 +1,21 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0008 {
 	// Birthday Cake Candles
 	// https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
 
 	// --- You need to fill this method ---
 	public static int birthdayCakeCandles(List<Integer> candles) {
 		int tallest = candles.stream().max(Integer::compare).get();
-		return candles.stream().filter(c -> c == tallest).collect(toList()).size();
+		return candles.stream().filter(c -> c == tallest).collect(Collectors.toList()).size();
 	}
-
-}
-
-public class HackerrankPsAlgorithms0008 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -31,9 +25,9 @@ public class HackerrankPsAlgorithms0008 {
 
 		List<Integer> candles = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		int result = Result.birthdayCakeCandles(candles);
+		int result = birthdayCakeCandles(candles);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

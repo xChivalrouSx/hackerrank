@@ -2,8 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0047 {
 	// Modified Kaprekar Numbers
 	// https://www.hackerrank.com/challenges/kaprekar-numbers/problem?isFullScreen=true
 
@@ -30,10 +29,6 @@ class Result {
 		return leftHandSide + rightHandSide == number;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0047 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -41,7 +36,7 @@ public class HackerrankPsAlgorithms0047 {
 
 		int q = Integer.parseInt(bufferedReader.readLine().trim());
 
-		Result.kaprekarNumbers(p, q);
+		kaprekarNumbers(p, q);
 
 		bufferedReader.close();
 	}

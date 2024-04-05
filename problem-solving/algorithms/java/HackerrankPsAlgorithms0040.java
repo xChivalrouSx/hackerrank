@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0040 {
 	// Library Fine
 	// https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true
 
@@ -22,10 +21,6 @@ class Result {
 		}
 		return 0;
 	}
-
-}
-
-public class HackerrankPsAlgorithms0040 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -47,7 +42,7 @@ public class HackerrankPsAlgorithms0040 {
 
 		int y2 = Integer.parseInt(secondMultipleInput[2]);
 
-		int result = Result.libraryFine(d1, m1, y1, d2, m2, y2);
+		int result = libraryFine(d1, m1, y1, d2, m2, y2);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

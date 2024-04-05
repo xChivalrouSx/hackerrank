@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0033 {
 	// Save the Prisoner!
 	// https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true
 
@@ -15,10 +14,6 @@ class Result {
 		int result = (m + s - 1) % n;
 		return result == 0 ? n : result;
 	}
-
-}
-
-public class HackerrankPsAlgorithms0033 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -36,7 +31,7 @@ public class HackerrankPsAlgorithms0033 {
 
 				int s = Integer.parseInt(firstMultipleInput[2]);
 
-				int result = Result.saveThePrisoner(n, m, s);
+				int result = saveThePrisoner(n, m, s);
 
 				bufferedWriter.write(String.valueOf(result));
 				bufferedWriter.newLine();

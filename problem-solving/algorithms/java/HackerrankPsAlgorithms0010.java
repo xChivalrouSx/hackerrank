@@ -1,5 +1,4 @@
 import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,8 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0010 {
 	// Grading Students
 	// https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
 
@@ -26,10 +24,6 @@ class Result {
 			}
 		}).collect(Collectors.toList());
 	}
-
-}
-
-public class HackerrankPsAlgorithms0010 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -46,9 +40,9 @@ public class HackerrankPsAlgorithms0010 {
 		})
 				.map(String::trim)
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		List<Integer> result = Result.gradingStudents(grades);
+		List<Integer> result = gradingStudents(grades);
 
 		bufferedWriter.write(
 				result.stream()

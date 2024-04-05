@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0031 {
 	// Beautiful Days at the Movies
 	// https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true
 
@@ -21,10 +20,6 @@ class Result {
 		return dayCount;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0031 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -37,7 +32,7 @@ public class HackerrankPsAlgorithms0031 {
 
 		int k = Integer.parseInt(firstMultipleInput[2]);
 
-		int result = Result.beautifulDays(i, j, k);
+		int result = beautifulDays(i, j, k);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

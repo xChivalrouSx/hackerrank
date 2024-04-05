@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0029 {
 	// Utopian Tree
 	// https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true
 
@@ -23,10 +22,6 @@ class Result {
 		return height;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0029 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -37,7 +32,7 @@ public class HackerrankPsAlgorithms0029 {
 			try {
 				int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-				int result = Result.utopianTree(n);
+				int result = utopianTree(n);
 
 				bufferedWriter.write(String.valueOf(result));
 				bufferedWriter.newLine();

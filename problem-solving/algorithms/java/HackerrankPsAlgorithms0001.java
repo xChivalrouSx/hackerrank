@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class HackerrankPsAlgorithms0001 {
-
 	// Solve Me First
 	// https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true
 

@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0042 {
 	// Repeated String
 	// https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true
 
@@ -20,10 +19,6 @@ class Result {
 		return (aCountInS * repeatCount) + aCountInRemain;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0042 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -32,7 +27,7 @@ public class HackerrankPsAlgorithms0042 {
 
 		long n = Long.parseLong(bufferedReader.readLine().trim());
 
-		long result = Result.repeatedString(s, n);
+		long result = repeatedString(s, n);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

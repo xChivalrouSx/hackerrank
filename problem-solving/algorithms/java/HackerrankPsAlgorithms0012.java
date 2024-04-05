@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0012 {
 	// Number Line Jumps
 	// https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true
 
@@ -23,10 +22,6 @@ class Result {
 		return "NO";
 	}
 
-}
-
-public class HackerrankPsAlgorithms0012 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -41,7 +36,7 @@ public class HackerrankPsAlgorithms0012 {
 
 		int v2 = Integer.parseInt(firstMultipleInput[3]);
 
-		String result = Result.kangaroo(x1, v1, x2, v2);
+		String result = kangaroo(x1, v1, x2, v2);
 
 		bufferedWriter.write(result);
 		bufferedWriter.newLine();

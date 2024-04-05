@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0021 {
 	// Drawing Book
 	// https://www.hackerrank.com/challenges/drawing-book/problem?isFullScreen=true
 
@@ -20,10 +19,6 @@ class Result {
 		return totalPageTurn;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0021 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -32,7 +27,7 @@ public class HackerrankPsAlgorithms0021 {
 
 		int p = Integer.parseInt(bufferedReader.readLine().trim());
 
-		int result = Result.pageCount(n, p);
+		int result = pageCount(n, p);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

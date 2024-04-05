@@ -1,13 +1,11 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0019 {
 	// Bill Division
 	// https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
 
@@ -21,10 +19,6 @@ class Result {
 		}
 	}
 
-}
-
-public class HackerrankPsAlgorithms0019 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -36,11 +30,11 @@ public class HackerrankPsAlgorithms0019 {
 
 		List<Integer> bill = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
 		int b = Integer.parseInt(bufferedReader.readLine().trim());
 
-		Result.bonAppetit(bill, k, b);
+		bonAppetit(bill, k, b);
 
 		bufferedReader.close();
 	}

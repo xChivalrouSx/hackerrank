@@ -1,15 +1,13 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0043 {
 	// Jumping on the Clouds
 	// https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true
 
@@ -25,10 +23,6 @@ class Result {
 		return result - 1;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0043 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -37,9 +31,9 @@ public class HackerrankPsAlgorithms0043 {
 
 		List<Integer> c = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		int result = Result.jumpingOnClouds(c);
+		int result = jumpingOnClouds(c);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

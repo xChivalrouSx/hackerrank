@@ -1,15 +1,13 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0005 {
 	// Plus Minus
 	// https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
 
@@ -25,10 +23,6 @@ class Result {
 		System.out.println(formatter.format(value));
 	}
 
-}
-
-public class HackerrankPsAlgorithms0005 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -36,9 +30,9 @@ public class HackerrankPsAlgorithms0005 {
 
 		List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		Result.plusMinus(arr);
+		plusMinus(arr);
 
 		bufferedReader.close();
 	}

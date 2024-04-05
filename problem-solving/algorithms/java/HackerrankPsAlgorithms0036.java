@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-class HackerrankPsAlgorithms0035 {
+class HackerrankPsAlgorithms0036 {
 
 	// Jumping on the Clouds: Revisited
 	// https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true

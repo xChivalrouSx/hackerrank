@@ -6,7 +6,7 @@ public class HackerrankJava0056 {
 		// Java Exception Handling
 		// https://www.hackerrank.com/challenges/java-exception-handling/problem?isFullScreen=true
 
-		MyCalculator my_calculator = new MyCalculator();
+		MyCalculator0056 my_calculator = new MyCalculator0056();
 		Scanner in = new Scanner(System.in);
 
 		while (in.hasNextInt()) {
@@ -25,7 +25,7 @@ public class HackerrankJava0056 {
 
 }
 
-class MyCalculator {
+class MyCalculator0056 {
 
 	// -------------------------------------------------------------------------------------------------
 	// --- You need to add this lines for solution hackerrank provides all other lines for challange ---

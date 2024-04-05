@@ -1,5 +1,3 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -11,8 +9,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0044 {
 	// Equalize the Array
 	// https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true
 
@@ -23,10 +20,6 @@ class Result {
 		return arr.size() - elementCount.values().stream().max(Long::compare).get().intValue();
 	}
 
-}
-
-public class HackerrankPsAlgorithms0044 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -35,9 +28,9 @@ public class HackerrankPsAlgorithms0044 {
 
 		List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		int result = Result.equalizeArray(arr);
+		int result = equalizeArray(arr);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

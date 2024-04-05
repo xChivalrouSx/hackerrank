@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0038 {
 	// Append and Delete
 	// https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true
 
@@ -50,10 +49,6 @@ class Result {
 		}
 	}
 
-}
-
-public class HackerrankPsAlgorithms0038 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -64,7 +59,7 @@ public class HackerrankPsAlgorithms0038 {
 
 		int k = Integer.parseInt(bufferedReader.readLine().trim());
 
-		String result = Result.appendAndDelete(s, t, k);
+		String result = appendAndDelete(s, t, k);
 
 		bufferedWriter.write(result);
 		bufferedWriter.newLine();

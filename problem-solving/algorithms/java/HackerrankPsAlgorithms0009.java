@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0009 {
 	// Time Conversion
 	// https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true
 
@@ -26,17 +25,13 @@ class Result {
 		return hour + ":" + minute + ":" + second;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0009 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
 		String s = bufferedReader.readLine();
 
-		String result = Result.timeConversion(s);
+		String result = timeConversion(s);
 
 		bufferedWriter.write(result);
 		bufferedWriter.newLine();

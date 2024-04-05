@@ -1,6 +1,3 @@
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -11,8 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0034 {
 	// Circular Array Rotation
 	// https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true
 
@@ -23,10 +19,6 @@ class Result {
 		}
 		return queries.stream().map(index -> a.get(index)).collect(Collectors.toList());
 	}
-
-}
-
-public class HackerrankPsAlgorithms0034 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -42,7 +34,7 @@ public class HackerrankPsAlgorithms0034 {
 
 		List<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
 		List<Integer> queries = IntStream.range(0, q).mapToObj(i -> {
 			try {
@@ -53,14 +45,14 @@ public class HackerrankPsAlgorithms0034 {
 		})
 				.map(String::trim)
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		List<Integer> result = Result.circularArrayRotation(a, k, queries);
+		List<Integer> result = circularArrayRotation(a, k, queries);
 
 		bufferedWriter.write(
 				result.stream()
 						.map(Object::toString)
-						.collect(joining("\n"))
+						.collect(Collectors.joining("\n"))
 						+ "\n");
 
 		bufferedReader.close();

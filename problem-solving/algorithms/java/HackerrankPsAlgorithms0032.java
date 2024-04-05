@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0032 {
 	// Viral Advertising
 	// https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true
 
@@ -21,17 +20,13 @@ class Result {
 		return liked;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0032 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
 		int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-		int result = Result.viralAdvertising(n);
+		int result = viralAdvertising(n);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

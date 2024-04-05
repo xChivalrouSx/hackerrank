@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class HackerrankPsAlgorithms0023 {
-
 	// Electronics Shop
 	// https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true
 

@@ -1,5 +1,4 @@
 import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,10 +7,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0045 {
 	// ACM ICPC Team
 	// https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true
 
@@ -38,10 +37,6 @@ class Result {
 		return Arrays.asList(maxKnownTopic, maxTeams);
 	}
 
-}
-
-public class HackerrankPsAlgorithms0045 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -59,9 +54,9 @@ public class HackerrankPsAlgorithms0045 {
 				throw new RuntimeException(ex);
 			}
 		})
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		List<Integer> result = Result.acmTeam(topic);
+		List<Integer> result = acmTeam(topic);
 
 		bufferedWriter.write(
 				result.stream()

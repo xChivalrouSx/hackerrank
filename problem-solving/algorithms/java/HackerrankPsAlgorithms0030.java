@@ -1,16 +1,14 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0030 {
 	// Angry Professor
 	// https://www.hackerrank.com/challenges/angry-professor/problem?isFullScreen=true
 
@@ -18,10 +16,6 @@ class Result {
 	public static String angryProfessor(int k, List<Integer> a) {
 		return a.stream().filter(arriveTime -> arriveTime <= 0).count() >= k ? "NO" : "YES";
 	}
-
-}
-
-public class HackerrankPsAlgorithms0030 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -39,9 +33,9 @@ public class HackerrankPsAlgorithms0030 {
 
 				List<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 						.map(Integer::parseInt)
-						.collect(toList());
+						.collect(Collectors.toList());
 
-				String result = Result.angryProfessor(k, a);
+				String result = angryProfessor(k, a);
 
 				bufferedWriter.write(result);
 				bufferedWriter.newLine();

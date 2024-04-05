@@ -4,8 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Result {
-
+public class HackerrankPsAlgorithms0022 {
 	// Counting Valleys
 	// https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true
 
@@ -26,10 +25,6 @@ class Result {
 		return valleyCount;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0022 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -38,7 +33,7 @@ public class HackerrankPsAlgorithms0022 {
 
 		String path = bufferedReader.readLine();
 
-		int result = Result.countingValleys(steps, path);
+		int result = countingValleys(steps, path);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

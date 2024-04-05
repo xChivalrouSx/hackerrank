@@ -1,5 +1,3 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -11,8 +9,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0020 {
 	// Sales by Match
 	// https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true
 
@@ -26,10 +23,6 @@ class Result {
 		return totalPair;
 	}
 
-}
-
-public class HackerrankPsAlgorithms0020 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -38,9 +31,9 @@ public class HackerrankPsAlgorithms0020 {
 
 		List<Integer> ar = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		int result = Result.sockMerchant(n, ar);
+		int result = sockMerchant(n, ar);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

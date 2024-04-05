@@ -1,15 +1,13 @@
-import static java.util.stream.Collectors.toList;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0027 {
 	// The Hurdle Race
 	// https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true
 
@@ -18,10 +16,6 @@ class Result {
 		int maxLength = height.stream().mapToInt(Integer::intValue).max().orElse(0);
 		return maxLength > k ? maxLength - k : 0;
 	}
-
-}
-
-public class HackerrankPsAlgorithms0027 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -35,9 +29,9 @@ public class HackerrankPsAlgorithms0027 {
 
 		List<Integer> height = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt)
-				.collect(toList());
+				.collect(Collectors.toList());
 
-		int result = Result.hurdleRace(k, height);
+		int result = hurdleRace(k, height);
 
 		bufferedWriter.write(String.valueOf(result));
 		bufferedWriter.newLine();

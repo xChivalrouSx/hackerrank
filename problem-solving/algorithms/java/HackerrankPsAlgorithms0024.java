@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class HackerrankPsAlgorithms0024 {
-
 	// Cats and a Mouse
 	// https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true
 

@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
-class Result {
-
+public class HackerrankPsAlgorithms0039 {
 	// Sherlock and Squares
 	// https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true
 
@@ -14,10 +13,6 @@ class Result {
 	public static int squares(int a, int b) {
 		return (int) (Math.floor(Math.sqrt(b)) - Math.ceil(Math.sqrt(a)) + 1);
 	}
-
-}
-
-public class HackerrankPsAlgorithms0039 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -33,7 +28,7 @@ public class HackerrankPsAlgorithms0039 {
 
 				int b = Integer.parseInt(firstMultipleInput[1]);
 
-				int result = Result.squares(a, b);
+				int result = squares(a, b);
 
 				bufferedWriter.write(String.valueOf(result));
 				bufferedWriter.newLine();
