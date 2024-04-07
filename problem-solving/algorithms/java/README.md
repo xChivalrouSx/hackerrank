@@ -50,3 +50,6 @@
 | 048 | [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0048](./HackerrankPsAlgorithms0048.java) |
 | 049 | [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0049](./HackerrankPsAlgorithms0049.java) |
 | 050 | [Halloween Sale](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0050](./HackerrankPsAlgorithms0050.java) |
+| 051 | [Chocolate Feast](https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0051](./HackerrankPsAlgorithms0051.java) |
+| 052 | [Service Lane](https://www.hackerrank.com/challenges/service-lane/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0052](./HackerrankPsAlgorithms0052.java) |
+| 053 | [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0053](./HackerrankPsAlgorithms0053.java) |
