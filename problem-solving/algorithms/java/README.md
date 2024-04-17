@@ -55,3 +55,5 @@
 | 053 | [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0053](./HackerrankPsAlgorithms0053.java) |
 | 054 | [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0054](./HackerrankPsAlgorithms0054.java) |
 | 055 | [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0055](./HackerrankPsAlgorithms0055.java) |
+| 056 | [Fair Rations](https://www.hackerrank.com/challenges/fair-rations/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0056](./HackerrankPsAlgorithms0056.java) |
+| 057 | [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0057](./HackerrankPsAlgorithms0057.java) |
