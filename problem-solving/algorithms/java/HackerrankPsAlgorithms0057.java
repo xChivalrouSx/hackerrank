@@ -12,39 +12,37 @@ public class HackerrankPsAlgorithms0057 {
 	public static List<String> cavityMap(List<String> grid) {
 		List<String> resultGrid = new ArrayList<>();
 
-		List<Integer> integerListToGetMax = new ArrayList<>();
-		for (int i = 0; i < grid.size(); i++) {
-			if (i == 0 || i == grid.size() - 1) {
-				continue;
-			}
-			String rowString = grid.get(i).substring(1, grid.get(i).length() - 1);
-			integerListToGetMax.addAll(Arrays.asList(rowString.split("")).stream().map(x -> Integer.parseInt(x.toString())).collect(Collectors.toList()));
-		}
+		List<List<String>> gridList = new ArrayList<>();
+		gridList.addAll(grid.stream().map(x -> Arrays.asList(x.split(""))).collect(Collectors.toList()));
 
-		int max = integerListToGetMax.stream().max(Integer::compare).orElse(0);
-		if (integerListToGetMax.stream().allMatch(x -> x == max)) {
-			return grid;
-		}
-
-		for (int i = 0; i < grid.size(); i++) {
-			if (i == 0 || i == grid.size() - 1) {
+		for (int i = 0; i < gridList.size(); i++) {
+			if (i == 0 || i == gridList.size() - 1) {
 				resultGrid.add(grid.get(i));
 				continue;
-			}
-			String rowString = grid.get(i).substring(1, grid.get(i).length() - 1);
-			List<String> tmpStringList = Arrays.asList(rowString.split(""))
-					.stream().map(x -> {
-						String xString = String.valueOf(x);
-						if (Integer.parseInt(xString) == max) {
-							return "X";
+			} else {
+				List<String> gridListItem = gridList.get(i);
+				StringBuilder tmpValue = new StringBuilder();
+				for (int j = 0; j < gridListItem.size(); j++) {
+					int currentValue = Integer.parseInt(gridListItem.get(j));
+					if (j == 0 || j == gridListItem.size() - 1) {
+						tmpValue.append(gridListItem.get(j));
+					} else {
+						int rightValue = Integer.parseInt(gridListItem.get(j + 1));
+						int leftValue = Integer.parseInt(gridListItem.get(j - 1));
+						int topValue = Integer.parseInt(gridList.get(i - 1).get(j));
+						int bottomValue = Integer.parseInt(gridList.get(i + 1).get(j));
+						if (currentValue > rightValue &&
+								currentValue > leftValue &&
+								currentValue > topValue &&
+								currentValue > bottomValue) {
+							tmpValue.append("X");
+						} else {
+							tmpValue.append(gridListItem.get(j));
 						}
-						return xString;
-					}).collect(Collectors.toList());
-
-			String tmpString = grid.get(i).substring(0, 1);
-			tmpString += String.join("", tmpStringList);
-			tmpString += grid.get(i).substring(grid.get(i).length() - 1, grid.get(i).length());
-			resultGrid.add(tmpString);
+					}
+				}
+				resultGrid.add(tmpValue.toString());
+			}
 		}
 		return resultGrid;
 	}
