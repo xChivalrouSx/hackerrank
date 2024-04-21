@@ -58,3 +58,5 @@
 | 056 | [Fair Rations](https://www.hackerrank.com/challenges/fair-rations/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0056](./HackerrankPsAlgorithms0056.java) |
 | 057 | [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0057](./HackerrankPsAlgorithms0057.java) |
 | 058 | [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0058](./HackerrankPsAlgorithms0058.java) |
+| 059 | [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0059](./HackerrankPsAlgorithms0059.java) |
+| 060 | [camelCase](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0060](./HackerrankPsAlgorithms0060.java) |
