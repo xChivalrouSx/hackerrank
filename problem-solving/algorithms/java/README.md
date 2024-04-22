@@ -60,3 +60,5 @@
 | 058 | [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0058](./HackerrankPsAlgorithms0058.java) |
 | 059 | [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0059](./HackerrankPsAlgorithms0059.java) |
 | 060 | [camelCase](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0060](./HackerrankPsAlgorithms0060.java) |
+| 061 | [Strong Password](https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0061](./HackerrankPsAlgorithms0061.java) |
+| 062 | [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0062](./HackerrankPsAlgorithms0062.java) |
