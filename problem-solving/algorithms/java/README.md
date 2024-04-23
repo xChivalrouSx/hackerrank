@@ -62,3 +62,5 @@
 | 060 | [camelCase](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0060](./HackerrankPsAlgorithms0060.java) |
 | 061 | [Strong Password](https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0061](./HackerrankPsAlgorithms0061.java) |
 | 062 | [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0062](./HackerrankPsAlgorithms0062.java) |
+| 063 | [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0063](./HackerrankPsAlgorithms0063.java) |
+| 064 | [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0064](./HackerrankPsAlgorithms0064.java) |
