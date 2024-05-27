@@ -9,7 +9,7 @@ public class HackerrankJava0060 {
 		// https://www.hackerrank.com/challenges/java-reflection-attributes/problem?isFullScreen=true
 
 		// --- You need to update this line ---
-		Class student = Student.class;
+		Class student = Student01.class;
 		// --- You need to update this line ---
 		Method[] methods = student.getDeclaredMethods();
 
@@ -26,7 +26,7 @@ public class HackerrankJava0060 {
 	}
 }
 
-class Student {
+class Student01 {
 	private String name;
 	private String id;
 	private String email;
