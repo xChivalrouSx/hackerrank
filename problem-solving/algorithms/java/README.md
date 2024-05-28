@@ -66,3 +66,4 @@
 | 064 | [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0064](./HackerrankPsAlgorithms0064.java) |
 | 065 | [HackerRank in a String!](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0065](./HackerrankPsAlgorithms0065.java) |
 | 066 | [Pangrams](https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0066](./HackerrankPsAlgorithms0066.java) |
+| 067 | [Weighted Uniform Strings](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0067](./HackerrankPsAlgorithms0067.java) |
