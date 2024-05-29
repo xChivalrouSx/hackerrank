@@ -67,3 +67,5 @@
 | 065 | [HackerRank in a String!](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0065](./HackerrankPsAlgorithms0065.java) |
 | 066 | [Pangrams](https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0066](./HackerrankPsAlgorithms0066.java) |
 | 067 | [Weighted Uniform Strings](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0067](./HackerrankPsAlgorithms0067.java) |
+| 068 | [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0068](./HackerrankPsAlgorithms0068.java) |
+| 069 | [Funny String](https://www.hackerrank.com/challenges/funny-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0069](./HackerrankPsAlgorithms0069.java) |
