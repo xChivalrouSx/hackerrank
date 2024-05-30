@@ -69,3 +69,4 @@
 | 067 | [Weighted Uniform Strings](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0067](./HackerrankPsAlgorithms0067.java) |
 | 068 | [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0068](./HackerrankPsAlgorithms0068.java) |
 | 069 | [Funny String](https://www.hackerrank.com/challenges/funny-string/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0069](./HackerrankPsAlgorithms0069.java) |
+| 070 | [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem?isFullScreen=true) | [Java - HackerrankPsAlgorithms0070](./HackerrankPsAlgorithms0070.java) |
