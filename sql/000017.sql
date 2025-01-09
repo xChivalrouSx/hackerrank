@@ -1,5 +1,5 @@
 -- Weather Observation Station 11
--- https://www.hackerrank.com/challenges/weather-observation-station-11?isFullScreen=true
+-- https://www.hackerrank.com/challenges/weather-observation-station-11/problem?isFullScreen=true
 
 SELECT  DISTINCT(CITY)
 FROM    STATION

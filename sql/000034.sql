@@ -1,5 +1,5 @@
 -- Draw The Triangle 1
--- https://www.hackerrank.com/challenges/draw-the-triangle-1?isFullScreen=true
+-- https://www.hackerrank.com/challenges/draw-the-triangle-1/problem?isFullScreen=true
 
 SELECT      LPAD('* ', (21 - LEVEL) * 2, '* ')
 FROM        DUAL
