@@ -1,11 +1,14 @@
--- Placements
--- https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true
+-- Occupations
+-- https://www.hackerrank.com/challenges/occupations/problem?isFullScreen=true
 
-SELECT      s.NAME
-FROM        FRIENDS f
-            LEFT JOIN STUDENTS s ON (f.ID = s.ID)
-            LEFT JOIN PACKAGES p ON (p.ID = f.ID)
-            LEFT JOIN STUDENTS sf ON (f.FRIEND_ID = sf.ID)
-            LEFT JOIN PACKAGES pf ON (pf.ID = sf.ID)
-WHERE       pf.SALARY > p.SALARY
-ORDER BY    pf.SALARY;
+SELECT      MIN(Doctor), MIN(Professor), MIN(Singer), MIN(Actor)
+FROM        (
+                SELECT  RANK() OVER(PARTITION BY OCCUPATION ORDER BY name) rank,
+                        CASE OCCUPATION WHEN 'Doctor'       THEN NAME END AS Doctor,
+                        CASE OCCUPATION WHEN 'Professor'    THEN NAME END AS Professor,
+                        CASE OCCUPATION WHEN 'Singer'       THEN NAME END AS Singer,
+                        CASE OCCUPATION WHEN 'Actor'        THEN NAME END AS Actor
+                FROM OCCUPATIONS
+            )
+GROUP BY    rank
+ORDER BY    rank;
