@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 'Awk' - 1
-# https://www.hackerrank.com/challenges/awk-1/problem?isFullScreen=true
+# 'Awk' - 2
+# https://www.hackerrank.com/challenges/awk-2/problem?isFullScreen=true
 
-awk '(NF < 4) {print "Not all scores are available for "$1}'
+awk '{print $1, ":", ($2 < 50 || $3 < 50 || $4 < 50 ) ? "Fail" : "Pass"}'
