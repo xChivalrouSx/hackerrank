@@ -14,4 +14,5 @@ public class Solution000001 {
         System.out.println("Hello, World.");
         System.out.println(input);
     }
+    
 }
