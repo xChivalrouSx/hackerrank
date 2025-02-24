@@ -15,7 +15,7 @@ public class Solution000002 {
         
         System.out.println(firstValue + scanner.nextInt());
         System.out.println(secondValue + scanner.nextDouble());
-        scanner.nextLine()
+        scanner.nextLine();
         System.out.println(thirdValue + scanner.nextLine());
         
         scanner.close();
