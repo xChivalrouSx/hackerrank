@@ -55,6 +55,7 @@ public class Solution000024 {
             root = insert(root, data);
         }
         levelOrder(root);
+        sc.close();
     }
 
 }
